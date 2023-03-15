@@ -290,14 +290,22 @@ input[type="checkbox"]:checked~.menu-burger-list {
     justify-content: center;
 }
 
-.list-item-link {
-    display: block;
+.offers-list-item {
+    display: flex;
     max-width: 360px;
     width: 100%;
     min-height: 260px;
 }
 
-.list-item-link.offers-photo__4 {
+.list-item-link {
+    display: flex;
+    width: 100%;
+    min-height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-list-item.offers-photo__4 {
     max-width: 1140px;
     width: 100%;
     min-height: 180px;
@@ -727,9 +735,8 @@ input[type="email"]:focus {
         background-size: cover;
     }
 
-    .list-item-link.offers-photo__4 {
+    .offers-list-item.offers-photo__4 {
         max-width: 750px;
-        width: 100%;
         min-height: 180px;
     }
 
@@ -810,12 +817,12 @@ input[type="email"]:focus {
         gap: 19px;
     }
 
-    .list-item-link {
+    .offers-list-item {
         max-width: 232.33px;
         min-height: 167.62px;
     }
 
-    .list-item-link.offers-photo__4 {
+    .offers-list-item.offers-photo__4 {
         max-width: 734px;
         min-height: 116px;
     }
@@ -947,12 +954,12 @@ input[type="email"]:focus {
         gap: 32px;
     }
 
-    .list-item-link {
+    .offers-list-item {
         max-width: 343px;
         min-height: 247.72px;
     }
 
-    .list-item-link.offers-photo__4 {
+    .offers-list-item.offers-photo__4 {
         max-width: 343px;
         min-height: 111px;
     }
@@ -1028,7 +1035,7 @@ input[type="email"]:focus {
         width: 130px;
     }
 
-    .list-item-link {
+    .offers-list-item {
         max-width: 300px;
         min-height: 216.66px;
     }
